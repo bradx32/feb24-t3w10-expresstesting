@@ -1,0 +1,11 @@
+name: Express Testing
+
+on: [push]
+
+jobs: 
+  testing: 
+    runs-on: ubunta-latest
+    steps: 
+        - run: echo "Hello world"
+
+    
